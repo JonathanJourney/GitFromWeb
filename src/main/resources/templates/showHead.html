@@ -1,0 +1,19 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>showHead</title>
+</head>
+
+<body>
+
+    <div th:insert="~{head :: pageHead}"></div>
+
+    <div th:replace="~{head :: pageHead}"></div>
+
+    <div th:include="~{head :: pageHead}"></div>
+
+
+</body>
+</html>
